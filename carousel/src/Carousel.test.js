@@ -46,15 +46,19 @@ it("works when you click on the left arrow", function() {
   ).not.toBeInTheDocument();
 
   // move forward in the carousel
+  const rightArrow = container.querySelector(".bi-arrow-right-circle");
+  fireEvent.click(rightArrow);
+
+  // move backward in the carousel
   const leftArrow = container.querySelector(".bi-arrow-left-circle");
   fireEvent.click(leftArrow);
 
-  // expect the third image to show, but not the first
+  // expect the second image to show, but not the first
   expect(
-    container.querySelector('img[alt="testing image 1"]')
+    container.querySelector('img[alt="testing image 2"]')
   ).not.toBeInTheDocument();
   expect(
-    container.querySelector('img[alt="testing image 3"]')
+    container.querySelector('img[alt="testing image 1"]')
   ).toBeInTheDocument();
 });
 
