@@ -22,10 +22,7 @@ import Card from "./Card";
 
   //Increments currCardIdx state by 1
   function goForward() {
-    if (currCardIdx < total) {
       setCurrCardIdx(currCardIdx + 1);
-    }
-
   }
 
   //Decrements currCardIdx state by 1
@@ -33,7 +30,6 @@ import Card from "./Card";
     setCurrCardIdx(currCardIdx - 1);
   }
 
-  console.log("Current Cards Index", currCardIdx)
   return (
     <div className="Carousel">
       <h1>{title}</h1>
