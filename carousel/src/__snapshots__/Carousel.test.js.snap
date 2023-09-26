@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot  1`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 2
+        </h4>
+        <img
+          alt="testing image 2"
+          class="Card-image"
+          src="test2.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          2
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot  2`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 2
+        </h4>
+        <img
+          alt="testing image 2"
+          class="Card-image"
+          src="test2.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          2
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot -  1`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 2
+        </h4>
+        <img
+          alt="testing image 2"
+          class="Card-image"
+          src="test2.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          2
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot - initial render 1`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 1
+        </h4>
+        <img
+          alt="testing image 1"
+          class="Card-image"
+          src="test1.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          1
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot - second picture 1`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 2
+        </h4>
+        <img
+          alt="testing image 2"
+          class="Card-image"
+          src="test2.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          2
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 1
+        </h4>
+        <img
+          alt="testing image 1"
+          class="Card-image"
+          src="test1.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          1
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot 2`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 2
+        </h4>
+        <img
+          alt="testing image 2"
+          class="Card-image"
+          src="test2.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          2
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot w 1`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 1
+        </h4>
+        <img
+          alt="testing image 1"
+          class="Card-image"
+          src="test1.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          1
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot wi 1`] = `
+<div>
+  <div
+    class="Carousel"
+  >
+    <h1>
+      Test photos
+    </h1>
+    <div
+      class="Carousel-main"
+    >
+      <i
+        class="bi bi-arrow-left-circle"
+      />
+      <div
+        class="Card"
+      >
+        <h4
+          class="Card-title"
+        >
+          testing image 1
+        </h4>
+        <img
+          alt="testing image 1"
+          class="Card-image"
+          src="test1.com"
+        />
+        <small
+          class="Card-small"
+        >
+          Image 
+          1
+           of 
+          3
+          .
+        </small>
+      </div>
+      <i
+        class="bi bi-arrow-right-circle"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -29,3 +29,48 @@ it("works when you click on the right arrow", function() {
     container.querySelector('img[alt="testing image 2"]')
   ).toBeInTheDocument();
 });
+
+it("works when you click on the left arrow", function() {
+  const { container } = render(
+    <Carousel
+      photos={TEST_IMAGES}
+      title="images for testing"
+    />
+  );
+  // expect the first image to show, but not the second
+  expect(
+    container.querySelector('img[alt="testing image 1"]')
+  ).toBeInTheDocument();
+  expect(
+    container.querySelector('img[alt="testing image 3"]')
+  ).not.toBeInTheDocument();
+
+  // move forward in the carousel
+  const leftArrow = container.querySelector(".bi-arrow-left-circle");
+  fireEvent.click(leftArrow);
+
+  // expect the third image to show, but not the first
+  expect(
+    container.querySelector('img[alt="testing image 1"]')
+  ).not.toBeInTheDocument();
+  expect(
+    container.querySelector('img[alt="testing image 3"]')
+  ).toBeInTheDocument();
+});
+
+it("renders without crashing", function() {
+  render(<Carousel photos={TEST_IMAGES} title="Test photos"/> )
+});
+
+it("matches snapshot - initial render", function() {
+  const { container } = render(<Carousel photos={TEST_IMAGES} title="Test photos"/>);
+  expect(container).toMatchSnapshot();
+})
+
+it("matches snapshot - second picture", function() {
+  const { container } = render(<Carousel photos={TEST_IMAGES} title="Test photos"/>);
+  const rightArrow = container.querySelector(".bi-arrow-right-circle");
+  fireEvent.click(rightArrow);
+  expect(container).toMatchSnapshot();
+})
+
