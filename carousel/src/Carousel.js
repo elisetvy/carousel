@@ -22,7 +22,10 @@ import Card from "./Card";
 
   //Increments currCardIdx state by 1
   function goForward() {
-    setCurrCardIdx(currCardIdx + 1);
+    if (currCardIdx < total) {
+      setCurrCardIdx(currCardIdx + 1);
+    }
+
   }
 
   //Decrements currCardIdx state by 1
@@ -30,13 +33,15 @@ import Card from "./Card";
     setCurrCardIdx(currCardIdx - 1);
   }
 
+  console.log("Current Cards Index", currCardIdx)
   return (
     <div className="Carousel">
       <h1>{title}</h1>
       <div className="Carousel-main">
         <i
           className="bi bi-arrow-left-circle"
-          onClick={goBackward} // TODO: go backward
+          onClick={goBackward}
+          style={ { visibility: currCardIdx === 0 ? "hidden" : "visible"  } }
         />
         <Card
           caption={currCard.caption}
@@ -47,6 +52,7 @@ import Card from "./Card";
         <i
           className="bi bi-arrow-right-circle"
           onClick={goForward}
+          style={ { visibility: currCardIdx === total-1 ? "hidden" : "visible"  } }
         />
       </div>
     </div>
